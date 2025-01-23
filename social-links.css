@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box; 
+}
+html {
+	box-sizing: inherit;
+	font-family: "Inter", sans-sarif;
+}
+body {
+	background-color: hsl(190,90%,20%);
+	min-height: 100vh;
+}
+main {
+	align-items: center;
+	margin: 10% 0 0 35%;
+}
+.link-wrapper {
+	display: flex;
+	flex-direction: column;
+	max-width: 25rem;
+	min-height: 35rem;
+	border-radius: 10%;
+	padding: 24px;
+   background-image: url(C:/Users/bryan/OneDrive/Documents/social-linksFEM/observer.jpeg);
+}
+.profile-head {
+	text-align: center;
+	margin-top: 1em;
+}
+.name {
+	font-weight: 700;
+	font-size: 18px;	
+}
+.picture {
+	border-radius: 50%;
+	width: 25%;
+}
+.description {
+	font-size: 10px;
+}
+p {
+	color: white;
+	font-size: 14px;
+}
+.location {
+	color: hsl(240,100%,25%);
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+button{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 0.5rem;
+	background-color: rgb(30, 100, 200);
+	opacity: 0.5;
+	border-radius: 8px;
+	align-items: center;
+	margin-top: 1.5em;
+}
+button:hover {
+	background-color: hsl(105, 24%, 57%);
+	color: hsl(0, 0, 20%);
+	cursor: pointer;
+}
+.links button p {
+	padding: 1rem;
+}
+.credit {
+	font-size: 11px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-sarif;
+	margin-top: 3em;
+}
+.credit a {
+	color: blue;
+	text-decoration: underline;
+}
+
+@media (max-width: 720px) {
+	main {
+		margin: 1em;
+		padding: 0.5em;
+	}
+}
